@@ -1,0 +1,460 @@
+<!-- 여간행장 메인 -->
+<!-- 대충 주석 버전 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 아이콘(FontAwesome) 가져오기 -->
+  <script src="https://kit.fontawesome.com/b17d49f702.js" crossorigin="anonymous"></script>
+  <!-- CSS 가져오기 -->
+  <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="./styles/index.css" rel="stylesheet" type="text/css" />
+  <title>여간행장 - Index</title>
+</head>
+
+<!-- 바디 시작 -->
+<!-- 크게 header, main, footer 세 파트로 구분 -->
+<body>
+
+  <!-- header 시작 -->
+  <header>
+    <!-- 여간행장 헤더 부분 -->
+    <div class="header">
+      <!-- 로고 및 검색 창 -->
+      <div>
+        <div class="logo">
+          <h1>여간행장</h1>
+        </div>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="search" type="text" name="" placeholder="도시나 상품을 검색하세요">
+        </div>
+      </div>
+      <!-- 회원가입 및 로그인 -->
+      <div class="login-menu">
+        <span>회원가입</span>
+        <button>로그인</button>
+      </div>
+    </div>
+
+    <!-- 헤더 메뉴 부분, 메뉴 내용은 추후 변경 예정 -->
+    <div class="header-nav">
+      <span><i class="fa-solid fa-plane-departure"></i>&nbsp;항공・숙소</span>
+      <span><i class="fa-solid fa-hotel"></i>&nbsp;호텔・리조트</span>
+      <span><i class="fa-solid fa-comments"></i>&nbsp;현지인 연락</span>
+      <span><i class="fa-solid fa-location-dot"></i>&nbsp;지역별</span>
+      <span><i class="fa-solid fa-box"></i>&nbsp;패키지</span>
+      <span>더보기&nbsp;<i class="fa-solid fa-caret-down"></i></span>
+    </div>
+  </header>
+
+  <!-- 메인 시작 -->
+  <main>
+
+    <!-- 이미지 Enjoy... 써진 메뉴 -->
+    <div class="image-menu" style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+      <div>
+        <div class="menu-box">
+          <button><i class="fa-solid fa-chevron-left"></i></button>
+          <div>
+            <!-- 제목과 소제목 -->
+            <h1>Enjoy Your Trip!</h1>
+            <span>여행을 즐기세요!</span><br>
+            
+            <!-- 검색창 -->
+            <div class="menu-search-bar">
+              <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="서울 여행" class="search">
+              </div>
+              <button>검색하기</button>
+            </div>
+          </div>
+        </div>
+
+        <button><i class="fa-solid fa-chevron-left fa-rotate-180"></i></button>
+      </div>
+    </div>
+
+    <!-- 이벤트 메뉴 -->
+    <!-- 내용 추후 변경 예정 -->
+    <div class="event-menu">
+      <div class="event-text">
+        <h2>망설이면 솔드아웃!</h2>
+      </div>
+      
+      <!-- 이벤트 목록 -->
+      <!-- 반복으로 처리 예정, 슬라이드로 할지 고민 -->
+      <div class="event-container"> <!--display: flex; justify-content: space-between; align-items: center; flex-wrap: nowrap; overflow-x: auto; -->
+        <button><i class="fa-solid fa-chevron-left"></i></button>  
+
+        <!-- 이벤트 요소 -->
+        <div class="event-object">
+          <!-- 배경 이미지는 인라인 css로 처리 -->
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <!-- 요소 분류 및 제목 -->
+            <div>
+              <span>티켓/패스</span>
+              <h4>[특가] 이주현의 집 아남아파트!</h4>
+            </div>
+            <!-- 요소 별점 및 가격 -->
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 반복 -->
+        <div class="event-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h4>[특가] 이주현의 집 아남아파트!</h4>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h4>[특가] 이주현의 집 아남아파트!</h4>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <button><i class="fa-solid fa-chevron-left fa-rotate-180"></i></button>  
+      </div>
+    </div>
+
+    <!-- 이벤트 카테고리? -->
+    <!-- 둘 중 메뉴 선택에 따라 목록 보이기 -->
+    <div class="event-cart">
+      <div><h2>황금연휴 추천 여행지</h2></div>
+      <div><h2 style="color: #ccc;">봄 여행 미리 준비해 봄</h2></div>
+    </div>
+
+    <!-- 요소 반복 -->
+    <div class="cart-container">
+
+      <!-- 메뉴 구성은 위와 비슷 -->
+      <div class="cart-object">
+        <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+          <div>패키지</div>
+          <div><span>⭐황금연휴 좌석보유⭐</span></div>
+        </div>
+
+        <div>
+          <div>
+            <span>아남아파트 5, 6일</span>
+            <div><span>#우리집</span>&nbsp;<span>#집이_최고지</span></div>
+          </div>
+          <div><h3>500,000원~</h3></div>
+        </div>
+      </div>
+
+      <div class="cart-object">
+        <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+          <div>패키지</div>
+          <div><span>⭐황금연휴 좌석보유⭐</span></div>
+        </div>
+
+        <div>
+          <div>
+            <span>아남아파트 5, 6일</span>
+            <div><span>#우리집</span>&nbsp;<span>#집이_최고지</span></div>
+          </div>
+          <div><h3>500,000원~</h3></div>
+        </div>
+      </div>
+
+      <div class="cart-object">
+        <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+          <div>패키지</div>
+          <div><span>⭐황금연휴 좌석보유⭐</span></div>
+        </div>
+
+        <div>
+          <div>
+            <span>아남아파트 5, 6일</span>
+            <div><span>#우리집</span>&nbsp;<span>#집이_최고지</span></div>
+          </div>
+          <div><h3>500,000원~</h3></div>
+        </div>
+      </div>
+
+      <div class="cart-object">
+        <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+          <div>패키지</div>
+          <div><span>⭐황금연휴 좌석보유⭐</span></div>
+        </div>
+
+        <div>
+          <div>
+            <span>아남아파트 5, 6일</span>
+            <div><span>#우리집</span>&nbsp;<span>#집이_최고지</span></div>
+          </div>
+          <div><h3>500,000원~</h3></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 광고 -->
+    <div class="ad">광고</div>
+
+    <!-- 지역별 추천 -->
+    <div class="location">
+      <!-- 제목과 소제목 -->
+      <div class="location-title">
+        <h2>대한민국 여행지</h2>
+        <span>즐길 거리가 가득한 인기 여행지들을 살펴보세요</span>
+      </div>
+
+      <div class="location-container">
+        <!-- 요소 -->
+        <div class="location-object">
+          <!-- 이미지 -->
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <!-- 지역 -->
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+
+        <!-- 반복 -->
+        <div class="location-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+
+        <div class="location-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+
+        <div class="location-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+
+        <div class="location-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+
+        <div class="location-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <h3>서울</h3>
+            <span>숙소 2,652개</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 추천 메뉴 -->
+    <div class="recommend">
+      <!-- 제목 -->
+      <h2>제주 필수 티켓</h2>
+      <!-- 요소 반복 -->
+      <div class="recommend-container">
+        <!-- 요소 -->
+        <div class="recommend-object">
+          <!-- 배경 이미지 -->
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <!-- 테그 및 제목 -->
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <!-- 별점 및 가격 -->
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 반복 -->
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 위와 동일 -->
+    <div class="recommend" style="margin-top: 50px;">
+      <h2>제주 필수 티켓</h2>
+      <div class="recommend-container">
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommend-object">
+          <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');"></div>
+          <div>
+            <div>
+              <span>티켓/패스</span>
+              <h3>[특가] 이주현의 집 아남아파트</h3>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> 341</span>
+              <span>가격 500,000원 / 1인</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- <hr style="margin: 30px auto;"> -->
+
+  <!-- 푸터 모든 페이지에 쓰일 예정 -->
+  <footer>
+    <!-- 대충 만든 메뉴 껍데기 -->
+    <div>
+      <div>
+        <h3>고객지원실 운영안내</h3>
+        <p>연중무휴 09:00~18:00</p>
+        <p>점심시간 12:00~13:00</p>
+        <p>유선상담 1234-5678</p>
+        <button>1:1 상담</button>
+      </div>
+      <div>
+        <div>
+          <p>소개</p>
+          <p>회사소개</p>
+          <p>채용</p>
+          <p>공고</p>
+        </div>
+        <div>
+          <p>파트너</p>
+          <p>파트너 홈</p>
+          <p>마케팅/제휴 문의</p>
+        </div>
+        <div>
+          <p>지원</p>
+          <p>공지사항/FAQ</p>
+          <p>최저가 보장제</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- 껍데기2 -->
+    <div>
+      <div>
+        <span>이용 약관</span>
+        <span>개인정보 처리방침</span>
+        <span>취소 및 환불 정책</span>
+      </div>
+      <!-- 뭐라 쓴거지 -->
+      <p>상호명 여간행정 | 팀장 이주현 | 팀원 김남욱, 김승민, 김우진, 김윤, 김지윤<br>주소 신구대학교 남관 111호 PBL룸</p>
+      <p>본 프로젝트는 세계 여러나라의 숙박업소를 보여주는 사이트입니다.</p>
+      
+    </div>
+  </footer>
+</body>
+
+</html>

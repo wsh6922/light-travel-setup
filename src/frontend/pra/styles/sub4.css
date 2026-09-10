@@ -1,0 +1,28 @@
+.city-menu {
+  width: 100%; 
+  height: 400px; 
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: center; 
+  flex-direction: column; 
+  background-image: url('https://cdn.newspenguin.com/news/photo/202203/11014_32807_1237.png'); 
+  background-size: cover; 
+  background-blend-mode: darken;
+  background-color: rgb(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+
+.city-menu > h1 {
+  margin-bottom: 0; 
+  color: white;
+}
+
+.city-menu > span {
+  margin-bottom: 20px; 
+  color: white;
+}
+
+.city-menu > button {
+  font-size: 20px;
+}

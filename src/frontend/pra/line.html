@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블러</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      min-height: 100vh;
+      background-color: #020816;
+      color: #d1d1d1;
+      display: grid;
+      place-items: cent ;
+      font-size: 1rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .filtered span {
+      filter: blur(7px);
+      transition: 300ms ease-in-out;
+    }
+    .filtered span:hover {
+      filter: blur(0);
+    }
+    .filtered span:has(+ span:hover), .filtered span:hover+span {
+      filter: blur(2px);
+    }
+  </style>
+</head>
+<body>
+  <div id="filtered" class="filtered">
+    Blurry lines, uncentain sight,
+    In the haze, where shadows fight.
+  </div>
+  <script>
+    const container = document.getElementById('filtered');
+    const text = container.innerHTML;
+    const lines = text.split("<br>");
+    const html = lines.map(function (line) {
+      const words = line.trim().split(/\s+/);
+      const lineHtml = words.map(function (word) {
+        return `<span>${word}</span>`;
+      }).join(' ');
+      return `${lineHtml}<br>`;
+    }).join('');
+    container.innerHTML = html;
+  </script>
+</body>
+</html>

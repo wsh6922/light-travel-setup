@@ -1,0 +1,314 @@
+<!-- 여간행장 sub1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b17d49f702.js" crossorigin="anonymous"></script>
+  <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="./styles/sub1.css" rel="stylesheet" type="text/css" />
+  <title>여간행장 - Sub1</title>
+</head>
+<body>
+  <!-- header 시작 -->
+  <header>
+    <!-- 여간행장 헤더 부분 -->
+    <div class="header">
+      <!-- 로고 및 검색 창 -->
+      <div>
+        <div class="logo">
+          <h1>여간행장</h1>
+        </div>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="search" type="text" name="" placeholder="도시나 상품을 검색하세요">
+        </div>
+      </div>
+      <!-- 회원가입 및 로그인 -->
+      <div class="login-menu">
+        <span>회원가입</span>
+        <button>로그인</button>
+      </div>
+    </div>
+
+    <!-- 헤더 메뉴 부분, 메뉴 내용은 추후 변경 예정 -->
+    <div class="header-nav">
+      <span><i class="fa-solid fa-plane-departure"></i>&nbsp;항공・숙소</span>
+      <span><i class="fa-solid fa-hotel"></i>&nbsp;호텔・리조트</span>
+      <span><i class="fa-solid fa-comments"></i>&nbsp;현지인 연락</span>
+      <span><i class="fa-solid fa-location-dot"></i>&nbsp;지역별</span>
+      <span><i class="fa-solid fa-box"></i>&nbsp;패키지</span>
+      <span>더보기&nbsp;<i class="fa-solid fa-caret-down"></i></span>
+    </div>
+  </header>
+
+  <!-- header까진 동일 -->
+  <main>
+    <!-- 특정 지역 검색 후 나오는 메튜 -->
+    <h2>'한국' 검색 결과</h2>
+
+    <!-- 모든 메뉴 감싸는 div -->
+    <div class="main">
+
+      <!-- 왼쪽 메뉴 -->
+      <div class="left-menu">
+
+        <!-- 클릭 시 지도 이동 -->
+        <div class="map-menu">
+          <i class="fa-solid fa-location-dot fa-2xl"></i>
+          <span><b>지도에서 숙소보기</b></span>
+        </div>
+
+        <!-- 체크 박스 카테고리 -->
+        <div class="local-cart">
+          <p><input type="checkbox" value="">동유럽</p>
+          <p><input type="checkbox" value="">서유럽</p>
+          <p><input type="checkbox" value="">남유럽</p>
+          <p><input type="checkbox" value="">북유럽</p>
+          <p><input type="checkbox" value="">유럽</p>
+        </div>
+
+        <!-- 옵션 선택 -->
+        <div class="local-opt">
+          <hr><div style="display: flex; justify-content: space-between;"><span>출발 일정</span><i class="fa-solid fa-plus"></i></div>
+          <hr><div style="display: flex; justify-content: space-between;"><span>출발 시간</span><i class="fa-solid fa-plus"></i></div>
+          <hr><div style="display: flex; justify-content: space-between;"><span>출발지</span><i class="fa-solid fa-plus"></i></div>
+          <hr><div style="display: flex; justify-content: space-between;"><span>여행기간</span><i class="fa-solid fa-plus"></i></div>
+          <hr>
+        </div>
+      </div>
+
+      <!-- 오른쪽 메뉴 -->
+      <div class="right-menu">
+
+        <!-- 정렬 선택 메뉴 -->
+        <div class="sort-menu">
+
+          <!-- 검색 갯수 -->
+          <h4>134건의 검색 결과</h4>
+
+          <!-- 정렬 옵션 -->
+          <div>
+            <select><option>예약가능 날짜</option></select>
+            <select><option>가격대</option></select>
+            <span>예약즉시 확정<input type="checkbox"></span>
+          </div>
+          <label for="정렬">정렬 : </label>
+          <select name="정렬"><option>추천순</option></select>
+        </div>
+
+        <!-- 결과 감싸는 div -->
+        <div class="result-container">
+
+          <!-- 결과 메뉴 -->
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <!-- 반복 -->
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+
+          <div class="result-obj">
+            <div style="background-image: url('https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg');">
+              <div>
+                <i class="fa-regular fa-heart fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <p><b>신라 호텔</b></p>
+              <p><i class="fa-solid fa-star"></i> 4.2 (142)</p>
+              <p><b>105,319</b>원</p>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- 페이지 네이션 -->
+        <div class="result-page"><h3>< 1 2 3 4 5 ></h3></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 푸터 모든 페이지에 쓰일 예정 -->
+  <footer>
+    <!-- 대충 만든 메뉴 껍데기 -->
+    <div>
+      <div>
+        <h3>고객지원실 운영안내</h3>
+        <p>연중무휴 09:00~18:00</p>
+        <p>점심시간 12:00~13:00</p>
+        <p>유선상담 1234-5678</p>
+        <button>1:1 상담</button>
+      </div>
+      <div>
+        <div>
+          <p>소개</p>
+          <p>회사소개</p>
+          <p>채용</p>
+          <p>공고</p>
+        </div>
+        <div>
+          <p>파트너</p>
+          <p>파트너 홈</p>
+          <p>마케팅/제휴 문의</p>
+        </div>
+        <div>
+          <p>지원</p>
+          <p>공지사항/FAQ</p>
+          <p>최저가 보장제</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- 껍데기2 -->
+    <div>
+      <div>
+        <span>이용 약관</span>
+        <span>개인정보 처리방침</span>
+        <span>취소 및 환불 정책</span>
+      </div>
+      <!-- 뭐라 쓴거지 -->
+      <p>상호명 여간행장 | 팀장 이주현 | 팀원 김남욱, 김승민, 김우진, 김윤, 김지윤<br>주소 신구대학교 남관 111호 PBL룸</p>
+      <p>본 프로젝트는 세계 여러나라의 숙박업소를 보여주는 사이트입니다.</p>
+      
+    </div>
+  </footer>
+</body>
+</html>
