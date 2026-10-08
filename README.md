@@ -9,7 +9,7 @@
 
 </div>
 
-> `Capstone Design roject` 🥈 교내 창업아이디어 경진대회 우수상 | 2024.03 ~ 2024.07
+> `Capstone Design Project` 🥈 교내 창업아이디어 경진대회 우수상 | 2024.03 ~ 2024.07
 
 ---
 
