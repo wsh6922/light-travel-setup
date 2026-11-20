@@ -190,7 +190,7 @@ Yeogan
       </td>
       <td style="border: 2px solid black;">
         <a href="https://github.com/wsh6922" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/133782100?v=4" width="100px;" alt style="max-width: 100%;">
+          <img src="[https://avatars.githubusercontent.com/u/133782100?v=4](https://avatars.githubusercontent.com/u/225567477?v=4)" width="100px;" alt style="max-width: 100%;">
           <br>
           <sub>김남욱</sub>  
       </td>
