@@ -184,7 +184,7 @@ Yeogan
       </td>
       <td style="border: 2px solid black;">
         <a href="" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/182948012?v=4" width="100px;" alt style="max-width: 100%;">
+          <img src="" width="100px;" alt style="max-width: 100%;">
           <br>
           <sub>김지윤</sub>  
       </td>
